@@ -10,9 +10,9 @@ import "./App.css";
 import "./mapbox-gl-geocoder.css";
 import * as Realm from "realm-web";
 
-const REALM_APP_ID = "app_0-eioot";
+const REALM_APP_ID = "app_app-xnfhc";
 mapboxgl.accessToken =
-  "pk.eyJ1IjoibXVyYXRzdSIsImEiOiJja29qbjl1czIwNWgwMm5vN2p1cms3bTkwIn0.bayqcklLCk7RhaoQcSSP5Q";
+  "pk.eyJ1IjoiZWRhc3UiLCJhIjoiY2tubTIzaGRiMGwxNTJ2cHJ5Nnl2N3lkaiJ9.I_4kPgrgXBG_ScZzlrF-Bw";
 
 // Create a marker div
 const createMarker = (coordinates, description) => {
