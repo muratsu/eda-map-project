@@ -63,3 +63,177 @@
   margin: 12px;
   border-radius: 4px;
 }
+
+.top-menu-image {
+  position: fixed;
+  top: 6rem;
+  right: 2.2rem;
+  width: 10rem;
+}
+
+.shovel-action-button {
+  box-shadow: 1px 2px 4px rgb(0 0 0 / 3%);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1)!important;
+  position: fixed;
+  cursor: pointer;
+  z-index: 9001;
+  font-weight: 800;
+  color: #565656;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.shovel-image {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.marker {
+  background-image: url(./assets/daisy.png);
+  background-size: cover;
+  width: 45px;
+  height: 60px;
+  /* border-radius: 50%; */
+  cursor: pointer;
+}
+
+#geocoder-wrapper {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  width: 500px;
+}
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* border: 1px solid #ccc; */
+  /* background: #fff; */
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+
+  width: 400px;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+}
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-header .close {
+  margin-top: -2px;
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+}
+
+.mymodal .textarea {
+  width: 95%;
+  max-width: 95%;
+  height: 85px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  border: none;
+  background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.mymodal .textarea:focus {
+  background: none repeat scroll 0 0 #FFFFFF;
+  outline-width: 0;
+  border: none;
+}
+
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+
+.modal-header .close:focus, .modal-header .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+.modal-footer .btn+.btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.planting-cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
