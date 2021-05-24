@@ -10,7 +10,7 @@ import "./App.css";
 import "./mapbox-gl-geocoder.css";
 import * as Realm from "realm-web";
 
-const REALM_APP_ID = "app_app-xnfhc";
+const REALM_APP_ID = "daisy_app-xnfhc";
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZWRhc3UiLCJhIjoiY2tubTIzaGRiMGwxNTJ2cHJ5Nnl2N3lkaiJ9.I_4kPgrgXBG_ScZzlrF-Bw";
 
